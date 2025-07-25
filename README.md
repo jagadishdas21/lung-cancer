@@ -88,6 +88,14 @@ model = convnext_base(weights=ConvNeXt_Base_Weights.DEFAULT)
 
 ## 📈 Results
 
+| 🔍 Result Type           | 📝 Description                                  | 🖼️ Preview |
+|--------------------------|------------------------------------------------|------------|
+| 🧪 **PCA Variance Plot** | Displays how much variance is retained by each principal component | ![PCA Variance](images/pca_variance.png) |
+| 📊 **K-Means Clustering**| 2D visualization of clusters formed on PCA-reduced feature space | ![K-Means Clustering](images/kmeans_clusters.png) |
+| 📉 **Confusion Matrix**  | Comparison between true labels and predicted clusters | ![Confusion Matrix](images/confusion_matrix.png) |
+| 📈 **Metric Scores Table** | Summary of Precision, Recall, F1 Score, AUC | ![Metrics Table](images/metrics_table.png) |
+
+---
 
 
 
