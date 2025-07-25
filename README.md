@@ -1,6 +1,6 @@
 # Classification prediction from lung cancer histopathology images using unsupervised learning
 
-![Header](hne-slides/slide-1.png)
+![Header](hne-slides/slide-10.png)
 
 ## 📌 Overview
 
@@ -54,7 +54,7 @@ jupyter notebook convnext.ipynb
 ./resized_data/
 ```
 
-## 🧬 Methodology
+## 🔍 Methodology
 
 ### 1️⃣ Data Preprocessing
 - Images are resized to `224x224`
@@ -86,7 +86,7 @@ model = convnext_base(weights=ConvNeXt_Base_Weights.DEFAULT)
 - Confusion matrix and classification metrics compare clusters with true labels
 - Precision, Recall, F1 Score, and AUC are calculated for evaluation
 
-
+## 📈 Results
 
 
 
