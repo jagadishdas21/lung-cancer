@@ -71,7 +71,7 @@ transform = transforms.Compose([
 ### 2️⃣ Feature Extraction with ConvNeXt
 - Pretrained ConvNeXt-Base model is used to extract high-dimensional embeddings from each image:
 ```python
-model = convnext_base(weights=ConvNeXt_Base_Weights.IMAGENET1K_V1)
+model = convnext_base(weights=ConvNeXt_Base_Weights.DEFAULT)
 ```
 
 ### 3️⃣ PCA – Dimensionality Reduction
