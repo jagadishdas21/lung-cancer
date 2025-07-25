@@ -90,11 +90,11 @@ model = convnext_base(weights=ConvNeXt_Base_Weights.DEFAULT)
 
 | 🔍 Result Type           | 📝 Description                                  | 🖼️ Preview |
 |--------------------------|------------------------------------------------|------------|
-| **PCA** | Principle component analysis of features | ![PCA](results/PCA.png) |
-| **Variance**| Explained variance ratio of first two components: 0.220, 0.096 | ![Variance](results/variance.png) |
-| **Confusion Matrix**  | Evaluating Clustering against Ground Truth | ![Confusion Matrix](results/confusion-matrix-3.png) |
-| **Confusion Matrix**  | Logistic regression on PCA features | ![Confusion Matrix](results/confusion-matrix-1.png) |
-| **Confusion Matrix**  | Random forest on 191 PCA features | ![Confusion Matrix](results/confusion-matrix-2.png) |
-| **Cluster Statistics** | Distribution of feature across clusters | ![Cluster Statistics](results/cluster-statistics.png) |
+| 1️⃣ **PCA** | Principle component analysis of features | ![PCA](results/PCA.png) |
+| 2️⃣ **Variance**| Explained variance ratio of first two components: 0.220, 0.096 | ![Variance](results/variance.png) |
+| 3️⃣ **Confusion Matrix**  | Evaluating Clustering against Ground Truth | ![Confusion Matrix](results/confusion-matrix-3.png) |
+| 4️⃣ **Confusion Matrix**  | Logistic regression on PCA features | ![Confusion Matrix](results/confusion-matrix-1.png) |
+| 5️⃣ **Confusion Matrix**  | Random forest on 191 PCA features | ![Confusion Matrix](results/confusion-matrix-2.png) |
+| 6️⃣ **Cluster Statistics** | Distribution of feature across clusters | ![Cluster Statistics](results/cluster-statistics.png) |
 
 ---
