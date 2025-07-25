@@ -53,6 +53,7 @@ jupyter notebook convnext.ipynb
 ```bash
 ./resized_data/
 ```
+---
 
 ## 🔍 Methodology
 
@@ -86,6 +87,8 @@ model = convnext_base(weights=ConvNeXt_Base_Weights.DEFAULT)
 
 - Mean of Original Features
 - Variance of Original Features
+
+---
 
 ## 📈 Results
 
