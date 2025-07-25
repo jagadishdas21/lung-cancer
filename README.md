@@ -75,7 +75,7 @@ model = convnext_base(weights=ConvNeXt_Base_Weights.DEFAULT)
 ```
 
 ### 3️⃣ PCA – Dimensionality Reduction
-- PCA reduces 1000+ features to 2 or 3 components
+- PCA reduces 1000+ features to 2 components
 - Helps visualize cluster formation and explained variance
 
 ### 4️⃣ K-Means Clustering
