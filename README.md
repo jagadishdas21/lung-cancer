@@ -90,10 +90,12 @@ model = convnext_base(weights=ConvNeXt_Base_Weights.DEFAULT)
 
 | 🔍 Result Type           | 📝 Description                                  | 🖼️ Preview |
 |--------------------------|------------------------------------------------|------------|
-| 🧪 **PCA Variance Plot** | Displays how much variance is retained by each principal component | ![PCA Variance](images/pca_variance.png) |
-| 📊 **K-Means Clustering**| 2D visualization of clusters formed on PCA-reduced feature space | ![K-Means Clustering](images/kmeans_clusters.png) |
-| 📉 **Confusion Matrix**  | Comparison between true labels and predicted clusters | ![Confusion Matrix](images/confusion_matrix.png) |
-| 📈 **Metric Scores Table** | Summary of Precision, Recall, F1 Score, AUC | ![Metrics Table](images/metrics_table.png) |
+| 🧪 **PCA** | Principle component analysis of features | ![PCA](results/PCA.png) |
+| 📊 **Variance**| Explained variance ratio of first two components: 0.220, 0.096 | ![Variance](results/variance.png) |
+| 📉 **Confusion Matrix**  | Evaluating Clustering against Ground Truth | ![Confusion Matrix](results/confusion-matrix-3.png) |
+| 📉 **Confusion Matrix**  | Logistic regression on PCA features | ![Confusion Matrix](results/confusion-matrix-1.png) |
+| 📉 **Confusion Matrix**  | Random forest on 191 PCA features | ![Confusion Matrix](results/confusion-matrix-2.png) |
+| 📈 **Cluster Statistics** | Distribution of feature across clusters | ![Cluster Statistics](results/cluster-statistics.png) |
 
 ---
 
