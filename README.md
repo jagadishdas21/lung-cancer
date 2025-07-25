@@ -1,6 +1,6 @@
 # Classification prediction from lung cancer histopathology images using unsupervised learning
 
-![Header](images/banner_lung_cancer.png)
+![Header](hne-slides/slide-1.png)
 
 ## 📌 Overview
 
