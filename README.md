@@ -1,4 +1,4 @@
-# Classification prediction from lung cancer histopathology images using unsupervised learning
+# Classification prediction from lung cancer histopathology images using deep learning
 
 ![Header](hne-slides/slide-10.png)
 
