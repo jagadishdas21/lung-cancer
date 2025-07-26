@@ -14,7 +14,7 @@ This project applies **unsupervised learning** techniques such as **K-Means Clus
 - 🔍 Extract deep features using `ConvNeXt-Base` pretrained model  
 - 📉 Reduce feature dimensions using PCA  
 - 📊 Cluster the reduced features with K-Means  
-- 🧮 Evaluate cluster-label alignment with precision, recall, F1, and AUC metrics
+- 🧮 Evaluate cluster-label alignment
 
 ---
 
@@ -23,9 +23,9 @@ This project applies **unsupervised learning** techniques such as **K-Means Clus
 | Library         | Purpose                                  |
 |------------------|--------------------------------------------|
 | PyTorch          | Model loading, training, and inference     |
-| torchvision      | Image preprocessing and dataset loading    |
+| Torchvision      | Image preprocessing and dataset loading    |
 | ConvNeXt         | Pretrained model for feature extraction    |
-| scikit-learn     | PCA, K-Means, evaluation metrics           |
+| Scikit-learn     | PCA, K-Means, evaluation metrics           |
 | Matplotlib/Seaborn | Plotting confusion matrix and PCA graphs |
 
 ---
