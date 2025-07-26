@@ -94,11 +94,11 @@ model = convnext_base(weights=ConvNeXt_Base_Weights.DEFAULT)
 
 | 🔍 Result Type           | 📝 Description                                  | 🖼️ Preview |
 |--------------------------|------------------------------------------------|------------|
-| 1️⃣ **PCA** | Principle component analysis of features | ![PCA](results/pca-features.png) |
-| 2️⃣ **Variance**| Explained variance ratio of first two components: 0.220, 0.096 | ![Variance](results/cumulative-explained-variance.png) |
-| 3️⃣ **Confusion Matrix**  | Evaluating Clustering against Ground Truth | ![Confusion Matrix](results/confusion-matrix.png) |
-| 4️⃣ **Confusion Matrix**  | Logistic regression on PCA features | ![Confusion Matrix](results/confusion-matrix-1.png) |
-| 5️⃣ **Confusion Matrix**  | Random forest on 191 PCA features | ![Confusion Matrix](results/confusion-matrix-2.png) |
-| 6️⃣ **Cluster Statistics** | Distribution of feature across clusters | ![Cluster Statistics](results/cluster-statistics.png) |
+| 1️⃣ **PCA** | - Scatter plot of first 2 PCA components. - Shows clear separation between two clusters. - Indicates PCA captured meaningful variance and class separability.| ![PCA](results/pca-features.png) |
+| 2️⃣ **Variance**| - Line plot of cumulative variance vs. number of components. - ~200 components explain most variance. - Useful for dimensionality reduction decision. | ![Variance](results/cumulative-explained-variance.png) |
+| 3️⃣ **Confusion Matrix**  | - Clustering by K-Means: 13,181 samples → class 0. 11,864 samples → class 1. - No misclassifications; exact cluster-label match. | ![Confusion Matrix](results/confusion-matrix.png) |
+| 4️⃣ **Confusion Matrix**  | - Used PCA-reduced features to train a logistic regression model. - Achieved high accuracy with 3,483 TP, 4,004 TN, 15 FP and 12 FN. - Proves that PCA simplifies data effectively for linear classifiers. | ![Confusion Matrix](results/confusion-matrix-1.png) |
+| 5️⃣ **Confusion Matrix**  | - Trained a Random Forest on 191 PCA components. - Model predicted 3,486 TP and 4,004 TN, with just 12 FP and 12 FN. - Shows ensemble learning with PCA enhances classification slightly better than logistic regression.| ![Confusion Matrix](results/confusion-matrix-2.png) |
+| 6️⃣ **Cluster Statistics** | - Boxplot of Feature 0 for each cluster. - Similar medians; small spread difference. - Feature 0 mildly contributes to cluster separation. | ![Cluster Statistics](results/cluster-statistics.png) |
 
 ---
