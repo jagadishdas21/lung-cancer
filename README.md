@@ -92,7 +92,7 @@ model = convnext_base(weights=ConvNeXt_Base_Weights.DEFAULT)
 
 ## 📈 Results
 
-| 🔍 Result Type           | 📝 Description                                  | 🖼️ Preview |
+| Metrices           | Description                                  | Preview |
 |--------------------------|------------------------------------------------|------------|
 | 1️⃣ **PCA** | (a) Scatter plot of first 2 PCA components.<br> (b) Shows clear separation between two clusters.<br> (c) Indicates PCA captured meaningful variance and class separability.| ![PCA](results/pca-features.png) |
 | 2️⃣ **Variance**| (a) Line plot of cumulative variance vs. number of components.<br> (b) ~200 components explain most variance.<br> (c) Useful for dimensionality reduction decision. | ![Variance](results/cumulative-explained-variance.png) |
